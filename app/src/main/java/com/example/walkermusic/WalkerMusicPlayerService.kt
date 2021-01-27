@@ -17,6 +17,7 @@ class WalkerMusicPlayerService : Service() {
     override fun onCreate() {
         super.onCreate()
         Log.d("music","create executed!")
+        Log.d("music", "create executed!")
     }
 
     override fun onDestroy() {
